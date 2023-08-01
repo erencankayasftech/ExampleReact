@@ -213,7 +213,7 @@ const NFTContractABI = [
         },
         {
           "internalType": "string",
-          "name": "tokenURI",
+          "name": "TokenUrl",
           "type": "string"
         },
         {
@@ -222,7 +222,7 @@ const NFTContractABI = [
           "type": "uint256"
         }
       ],
-      "name": "mintNFT",
+      "name": "setNFTValuables",
       "outputs": [],
       "stateMutability": "nonpayable",
       "type": "function"
@@ -265,12 +265,12 @@ const NFTContractABI = [
       "outputs": [
         {
           "internalType": "string",
-          "name": "name",
+          "name": "Name",
           "type": "string"
         },
         {
           "internalType": "string",
-          "name": "tokenURI",
+          "name": "TokenUrl",
           "type": "string"
         }
       ],
@@ -406,7 +406,7 @@ const NFTContractABI = [
           "type": "uint256"
         }
       ],
-      "name": "setRoyaltyFeePercentage",
+      "name": "setRoyaltyFeeRate",
       "outputs": [],
       "stateMutability": "nonpayable",
       "type": "function"
@@ -424,7 +424,7 @@ const NFTContractABI = [
           "type": "address"
         }
       ],
-      "name": "setWallets",
+      "name": "setWallesAccounts",
       "outputs": [],
       "stateMutability": "nonpayable",
       "type": "function"
@@ -512,7 +512,7 @@ const NFTContractABI = [
           "type": "uint256"
         }
       ],
-      "name": "tokenURI",
+      "name": "TokenUrl",
       "outputs": [
         {
           "internalType": "string",
