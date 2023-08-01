@@ -42,7 +42,7 @@ const MinterPage = () => {
 
         // Call the smart contract's mintNFT function
         await contract.methods
-          .mintNFT(name, tokenURI, parseInt(price))
+          .setNFTValuables(name, tokenURI, parseInt(price))
           .send({ from: account });
       } catch (error) {
         console.error(error);
